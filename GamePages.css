@@ -75,6 +75,7 @@ aside {
 	background-color: #24222E;
 }
 .buttonHome {
+	text-decoration: none;
 	font-family: PixelFont;
 	font-size: 20px;
 	background-color: #24222E;
