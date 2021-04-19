@@ -1,0 +1,84 @@
+body {
+	font-family: PixelFont;
+	margin: 0;
+	padding: 0;
+	max-width: inherit;
+	background: #FFF9F9;
+	color: #FFC425
+}
+header{
+	font-family: PixelFont;
+	font-size: 50px;
+	text-align: left;
+	text-indent: 20px;
+	padding: 0.1em 0;
+	background-color: #795548;
+	color: #FFC425;
+	border-bottom-style: ridge;
+	border-color: black;
+}
+footer {
+	font-size: medium;
+	text-align: center;
+	padding: 0.3em 0;
+	background-color: #24222E;
+	color: #FFC425;
+}
+main { background: #24222E; }
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.container {
+	display: flex;
+	flex: 1;
+}
+main {
+	flex: 1;
+	padding: 0 20px;
+}
+nav {
+	flex: 0 0 180px;
+	padding: 0 10px;
+	order: -1;
+}
+aside {
+	flex: 0 0 130px;
+	padding: 0 10px;
+}
+
+@font-face {
+	font-family: PixelFont;
+	src: url(uni0553-webfont.woff);
+}
+
+.btn-group .button { /* Adapted from "https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_group_border" */
+	background-color: #24222E;
+	border: 4px solid #D23F2F;
+	color: #D23F2F;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: PixelFont;
+	font-size: 30px;
+	cursor: pointer;
+	float: left;
+}
+
+.btn-group .button:not(:last-child) {
+	border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+	background-color: #24222E;
+}
+.buttonHome {
+	font-family: PixelFont;
+	font-size: 20px;
+	background-color: #24222E;
+	color: #D23F2F;
+	border: 2px solid #D23F2F;
+	cursor: pointer;
+}
