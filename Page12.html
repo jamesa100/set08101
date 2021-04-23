@@ -9,6 +9,12 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "84%";
+			}
+			</script> 
+			
 			<h1><img src="Part3Img.png" alt="Part 3" width="400" height="300"></h1>
 				<p> As you continue to fall you see a light reflecting off something below. SPLASH! You seem to have fallen into some sort of well. What do you do?
 				<br/> A. Swim.
@@ -19,6 +25,16 @@
 				<a href="Page14.html" class="button">A</a>
 				<a href="Page13.html" class="button">B</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
