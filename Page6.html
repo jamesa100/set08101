@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "42%";
+			}
+			</script> 
 			<h1><img src="Death.png" alt="Part 1" width="400" height="300"></h1>
 				<p> 6.	You scramble to the hatch, pushing parts of the broken bed aside.
 				<br/> The creature screeches in anger and a chill runs down your spine. 
@@ -20,6 +25,16 @@
 			<div class="btn-group">
 				<a href="HomePage.html" class="button">A</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
