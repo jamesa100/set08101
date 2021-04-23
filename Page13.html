@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "93%";
+			}
+			</script> 
 			<h1><img src="Part3Img.png" alt="Part 3" width="400" height="300"></h1>
 				<p> You decide you can go on no longer as water fills your lungs and everything fades to black.
 				<br/> A. Restart
@@ -17,6 +22,16 @@
 			<div class="btn-group">
 				<a href="HomePage.html" class="button">A</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
