@@ -25,6 +25,13 @@ footer {
 	color: #FFC425;
 }
 main { background: #24222E; }
+p  { 
+	font-family: PixelFont;
+	margin: 0;
+	padding: 3px;
+	max-width: inherit;
+	color: #FFC425 
+} 
 body {
 	min-height: 100vh;
 	display: flex;
@@ -43,10 +50,7 @@ nav {
 	padding: 0 10px;
 	order: -1;
 }
-aside {
-	flex: 0 0 130px;
-	padding: 0 10px;
-}
+
 
 @font-face {
 	font-family: PixelFont;
@@ -78,6 +82,16 @@ aside {
 	text-decoration: none;
 	font-family: PixelFont;
 	font-size: 20px;
+	background-color: #24222E;
+	color: #D23F2F;
+	border: 2px solid #D23F2F;
+	cursor: pointer;
+}
+
+.buttonProgress {
+	text-decoration: none;
+	font-family: PixelFont;
+	font-size: 15px;
 	background-color: #24222E;
 	color: #D23F2F;
 	border: 2px solid #D23F2F;
