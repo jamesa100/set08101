@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "End is near";
+			}
+			</script> 
 			<h1><img src="Part4Img.png" alt="Part 4" width="400" height="300"></h1>
 				<p>	You begin to look around the room there does not seem to be any obvious exits. Out of the corner of your eye you notice a chest shining in the corner there may be something of value in there.
 				<br/> A. Check the chest.
@@ -19,6 +24,16 @@
 				<a href="PageA2.html" class="button">A</a>
 				<a href="PageC1.html" class="button">B</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
