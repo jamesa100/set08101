@@ -17,6 +17,9 @@ header{
 	color: #FFC425;
 	border-bottom-style: ridge;
 	border-color: black;
+	<script>
+	document.getElementById("h1")style.color = blue;
+	</script>
 }
 
 nav { background: #24222E; }
