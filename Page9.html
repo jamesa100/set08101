@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "63%";
+			}
+			</script> 
 			<h1><img src="Part2Img.png" alt="Part 2" width="400" height="300"></h1>
 				<p> As you open the hatch you find a dark tunnel leading down with a ladder from the hatch you hear a faint noise in the distance.
 				<br/> A. Climb down the ladder.
@@ -21,6 +26,16 @@
 				<a href="Page1.html" class="button">B</a>
 
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
