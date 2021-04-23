@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "35%";
+			}
+			</script> 
 			<h1><img src="Part1Img.png" alt="Part 1" width="400" height="300"></h1>
 				<p>	You scream for help as footsteps approach, A tall dark shadow appears at the door. 
 				<br/> Everything goes deathly quiet, and a chill fills the air as the walls begin to frost up.
@@ -21,6 +26,16 @@
 				<a href="Page8.html" class="button">B</a>
 				<a href="Page7.html" class="button">C</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
