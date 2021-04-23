@@ -9,17 +9,37 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "0%";
+			}
+			</script> 
+			
 			<h1><img src="Part1Img.png" alt="Part 1" width="400" height="300"></h1>
+			
 				<p> You awake in a dark cell 4 walls of dark stone, no windows, simply a single old wooden door. 
 					<br/>A. Look around the room. 
 					<br/>B. Go to the door. 
 					<br/>C. Scream for help.
 				</p>
+				
 			<div class="btn-group">
 				<a href="Page2.html" class="button">A</a>
 				<a href="Page3.html" class="button">B</a>
 				<a href="Page5.html" class="button">C</a>
 			</div>
+			
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
+
+			
 		</main>		
 
 	</div>
