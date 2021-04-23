@@ -9,6 +9,11 @@
 	<header>CAN I ESCAPE THIS DUNGEON! - ACT 1</header>
 	<div class="container">
 		<main>
+			<script>
+			function progressFunction() {
+				document.getElementById("progress").innerHTML = "End is near";
+			}
+			</script> 
 			<h1><img src="Part4Img.png" alt="Part 4" width="400" height="300"></h1>
 				<p> You open the chest to find a large sword inside, it seems to glow like the sun and give off a feeling of power.
 				<br/> A. Grab the sword.
@@ -20,6 +25,16 @@
 				<a href="PageA3.html" class="button">A</a>
 				<a href="PageB1.html" class="button">B</a>
 			</div>
+						
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			
+			<div class="btn-group">
+				<a class="buttonProgress" onclick="progressFunction()">Show progress </a>
+			</div>
+			<p id="progress">""</p>
 		</main>		
 
 	</div>
